@@ -36,7 +36,7 @@ class Program
         // Using the extension method to apply a 10% discount to the burger!
         burger.ApplyDiscount(10); // Output: Discounted Price for Deluxe Burger: $8.99
 
-        // Even though we applied a discount, the original FoodItem class is not changed!
+       
         burger.Display(); 
     }
 }
